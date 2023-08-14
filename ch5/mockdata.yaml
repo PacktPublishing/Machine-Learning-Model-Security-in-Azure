@@ -1,0 +1,24 @@
+"":
+    mockdata:
+        table:
+            max_ids: 1
+            id:
+                private_id: True
+                type: int
+            first_name:
+                type: string
+            last_name:
+                type: string
+            email:
+                type: string
+            gender:
+                type: string
+            age:
+                type: int
+                lower: 15
+                upper: 80
+            diabetic:
+                type: boolean
+            location:
+                type: string
+        
